@@ -1,0 +1,610 @@
+
+*{
+  box-sizing: border-box; 
+  /*font-weight: 100;*/
+  font-family: 'Roboto', sans-serif;
+
+}
+
+html{
+  height: 100%;
+  margin:0;
+  padding:0;
+}
+
+body{
+  height:100%;
+  background:white;
+  color: black;
+  line-height:1.6;
+
+  padding-top:1em;
+  width: 100%;
+  margin:0;
+  padding:0;
+}
+
+
+
+#pagewrap{
+min-height: 100%;
+width:70%;
+margin-left: 15%;
+position: relative;
+
+}
+
+.hide{
+  display: none;
+}
+
+#contact{
+  width:70%;
+
+}
+
+#checkinFormbox{
+ background-color: #f2f8f2;
+ padding:10px;
+ padding-bottom: 20px;
+}
+.helptext{
+  color:#787878;
+}
+
+#messagetime, #contact, input[type="date"], input[type="time"]{
+
+    background-color: transparent; 
+    color:#485e74;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+/*#newtrippage label {
+    width:25%;
+    float:left;
+    font-size:1.5em;
+    line-height:24px;
+    margin-top:10px;
+}*/
+
+
+
+#downarrow{
+  text-align: right;
+  float:right;
+  margin-right:15px;
+}
+
+#contactsForm{
+  width:100%;
+}
+/*#newtrippage input, textarea {
+    width:70%;
+    font-size: 1em;
+    margin-top:10px;
+    margin-bottom:10px;
+    line-height:25px;
+    padding:2px 5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border:1px solid #CCC;
+}*/
+
+.contactInput {
+    width:38%;
+    margin-top:10px;
+    margin-bottom:10px;
+    line-height:25px;
+    padding:2px 5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border:1px solid #CCC;
+}
+
+.addbutton{
+  width:17%;
+    background-color: white; /* #70a075 */
+    border: 1px solid #70a075;
+    color: #70a075;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 2px 2px;
+    cursor: pointer;
+     border-radius: 10px;
+}
+
+.changebutton{
+    width:30%;
+    background-color: white; /* #70a075 */
+    border: 1px solid #70a075;
+    color: #70a075;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 2px 2px;
+    cursor: pointer;
+     border-radius: 10px;
+}
+
+#txtName{
+  width:65%;
+    margin-top:10px;
+    margin-bottom:10px;
+    line-height:25px;
+    padding:2px 5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border:1px solid #CCC;
+}
+
+#loginpage {
+  background-image: url("https://image.ibb.co/keBp6T/green.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+    /*padding: 100%;*/
+}
+
+
+#logo{margin: auto; text-align: center; }
+
+#loginpage label {
+    color: white;
+
+}
+#loginpage input, textarea {
+    color: white;
+    text-align: center;
+}
+
+#loginpage2 label {
+    color: white;
+
+}
+#loginpage2 input, textarea {
+    color: white;
+    text-align: center;
+}
+
+#registerbutton {
+  margin: 30% 0 20% 0;
+}
+
+#btnSignup{
+  margin-bottom: 5%;
+}
+
+
+.submitbutton{
+    background-color: white; /* #70a075 */
+    border: 1px solid #70a075;
+    color: #70a075;
+    padding: 6.5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 2px 2px;
+    cursor: pointer;
+     border-radius: 10px;
+}
+
+#innerlogin, #innerlogin2{
+margin:20% auto;
+width:70%;
+}
+
+#durationMenu{
+
+}
+
+/*#btnLogout{
+    background-color: transparent; 
+    border: 1px solid #70a075;
+    color: #70a075;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+ 
+    font-size: 0.9em;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+}*/
+
+.btn{
+    background-color: black; /* #70a075 */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 0.9em;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#loginpage{
+  padding:10px;
+}
+
+#btnlogout{
+  display: none;
+}
+
+#loginpage input{
+  width:100%;
+}
+/*
+#loginbuttons{
+  width:210px;
+  margin:0 auto;
+}*/
+
+.full {
+  width: 80px;
+  margin: 0 auto;
+}
+
+.fulllogout {
+  width: 100px;
+  margin: 0 auto;
+}
+
+ul{
+  list-style: none;
+  padding:0;
+  margin: 0;
+}
+
+
+.brand{
+  text-align: center;
+  padding:10px;
+  color:#fff;
+  margin:0;
+ background-color: #70a075;
+  font-size: 2em;
+}
+
+.brand2{
+  text-align: center;
+  padding:10px;
+  color:#fff;
+  margin:0;
+ 
+  font-size: 2em;
+}
+
+.track{
+  display: none;
+}
+
+.wrapper > *{
+  padding: 1em;
+}
+
+.bodystyle{
+  background:white;
+ 
+  padding:20px;
+  width:100%;
+  margin-bottom: 100px;
+}
+ #clock{
+  margin-top:50px; 
+ }
+
+.alert{
+  text-align: center;
+  padding: 2px;
+  background-color: #ff1a1a;
+  color: #fff;
+  display: none;
+}
+
+#clearHistory{
+  color:#ff1a1a ;
+  text-align: right;
+}
+
+/*ACCORDION FOR NEW TRIP PAGE*/
+
+.accordionnewtrip {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.5em;
+    transition: 0.4s;
+}
+
+
+.accordionnewtrip .active {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.5em;
+    transition: 0.4s;
+}
+
+
+.panelnewtrip {
+    display: none;
+    overflow: hidden;
+        background-color: #fafafa;
+}
+/*END ACCORDION FOR NEW TRIP PAGE*/
+
+/*CHECKBOXES FOR CHECK IN PAGE*/
+..checkoptions{
+  padding:10px 0px;
+  margin:5px 0px;
+  width:100%;
+}
+
+
+/* Customize the label (the container) */
+.checkbox {
+  display: block;
+  position: relative;
+  padding-left: 70px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin:auto 0;
+  height: 50px;
+  width: 50px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox input:checked ~ .checkmark {
+  background-color: #70a075;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox .checkmark:after {
+  left: 20px;
+  top: 9px;
+  width: 10px;
+  height: 20px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*END OF CHECK IN PAGE*/
+
+/*PROFILE PAGE*/
+
+/*accordian*/
+.accordion, .accordionlogin, .accordionguest {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover, .accordionlogin:hover, .accordionguest {
+    background-color: #ccc; 
+}
+
+.panel {
+    padding: 10px 18px;
+    display: none;
+    background-color: #fafafa;
+    overflow: hidden;
+}
+
+
+/*END OF PROFILE PAGE*/
+/*FOOTER*/
+
+/*FOOTER*/
+
+a {
+  text-decoration: none;
+  color:white !important;
+  /*font-size: 1em !important;*/
+}
+
+
+footer{
+  width:100%;
+  background-color: white;
+  position: fixed;
+  left:0;
+  bottom:0;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.wrapper li{
+  flex-basis:20%; 
+  font-size: 0.8em;
+  text-align: center;
+  align-self: flex-end;
+  margin: auto;
+}
+
+footer li:active{
+  background-color: lightgrey;
+
+}
+
+.active{
+  background-color: lightgrey;
+}
+
+@media (max-width: 700px){
+  #pagewrap{
+    width:100%;
+    margin:0;
+  }
+
+ #innerlogin{
+    padding:45% auto;
+}
+
+}
+
+@media (max-width: 350px){
+
+.brand2{
+  font-size: 2.5em;
+}
+
+#innerlogin{
+margin:20% auto;
+width:85%;
+}
+}
+
+
+
+/* ************* MDL **************** */
+
+.mdl-cell {
+  text-align: center;
+}
+
+.mdl-cell h6 {
+  text-align: left;
+  margin-left: 10%;
+  /*float: left;*/
+}
+
+/*.mdl-grid {
+  margin: 0;
+}*/
+
+.mdl-button-accent {
+  background-color: #6ca2a8 !important;
+}
+/*
+a {
+  color: white!important;
+}*/
+
+
+
+/* ************* JORDYPEATMAP **************** */
+
+#map {
+  height: 45%;
+
+}
+
+
+
+
+/*    Modal      */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    transition: 1s ease;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+select {
+  margin-top: 20px;
+}
